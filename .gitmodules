@@ -7,3 +7,6 @@
 [submodule "codemirror-mode-variables"]
 	path = codemirror-mode-variables
 	url = https://github.com/xavierog/codemirror-mode-variables
+[submodule "codemirror-mode-nginx-renewed"]
+	path = codemirror-mode-nginx-renewed
+	url = https://github.com/xavierog/codemirror-mode-nginx-renewed
