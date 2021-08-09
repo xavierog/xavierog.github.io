@@ -1,0 +1,9 @@
+[submodule "codemirror-mode-ipaddr"]
+	path = codemirror-mode-ipaddr
+	url = https://github.com/xavierog/codemirror-mode-ipaddr
+[submodule "codemirror-mode-pcre"]
+	path = codemirror-mode-pcre
+	url = https://github.com/xavierog/codemirror-mode-pcre
+[submodule "codemirror-mode-variables"]
+	path = codemirror-mode-variables
+	url = https://github.com/xavierog/codemirror-mode-variables
