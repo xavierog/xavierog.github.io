@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Moulti + Ansible-playbook demo</title>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/asciinema-player@3.7.1/dist/bundle/asciinema-player.css"
+			integrity="sha512-BWFRyrflpZCIkW09K+KB3+wrYEJ2FNGt5hOzvY9Z7BO24SaN6tvFcO94ssG2dAv73M1/ZgJkjwFqNIjgGe93jQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+	</head>
+	<body>
+		<div id="content">
+			<h1>Moulti + Ansible-playbook demo</h1>
+		</div>
+		<div id="moulti-ansible-playbook-demo" class="player"></div>
+		<script
+			src="https://unpkg.com/asciinema-player@3.7.1/dist/bundle/asciinema-player.min.js"
+			integrity="sha512-sb4sO8AQZ+Nmdt5RY1w9n4vE0o9FwS4y//8RO9mfUv7jfs3C+yAXEVBINg5/FyXqPNgMmIIfFySxmU44lV47Xw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer">
+		</script>
+		<script>
+			let player_div = document.getElementById('moulti-ansible-playbook-demo');
+			player_div.setAttribute('style', 'height:' + (window.innerHeight - player_div.offsetTop - 40) + 'px');
+			AsciinemaPlayer.create(
+				'moulti-ansible.cast',
+				player_div,
+				{
+					'poster': 'npt:0:06',
+					'fit': 'both',
+				}
+			);
+		</script>
+	</body>
+</html>
